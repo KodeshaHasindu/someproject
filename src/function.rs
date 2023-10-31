@@ -264,3 +264,140 @@
 //     }
 //     println!("LIFTOFF!!!");
 // }
+
+
+
+
+
+
+
+
+// use std::io;
+
+// fn main() {
+ 
+//  println!("Please input Fahrenheit.");
+
+//  let mut f = String::new();
+
+//  io::stdin()
+//         .read_line(&mut f)
+//         .expect("Failed to read line");
+
+//         let f: f32 =  f.trim().parse().expect("msg");
+
+    
+
+//  let c: f32= (f - 32.0) * 5.0/9.0 ;
+
+//  println!("{:.2}",c);
+
+// }
+
+
+
+
+
+
+
+// use std::io;
+
+// fn main() {
+//        println!("Please input number");
+
+//        let mut f = String::new();
+
+//  io::stdin()
+//        .read_line(&mut f)
+//        .expect("Failed to read line");
+
+
+// }
+
+
+
+
+
+
+
+
+
+// fn first_word(s: &String) -> &str {
+    //     let bytes = s.as_bytes();
+    
+    //     for (i, &item) in bytes.iter().enumerate() {
+    //         if item == b' ' {
+    //             return &s[0..i];
+    //         }
+    //     }
+    //     &s[..]
+    // }
+    
+    // fn main() {
+    //     let mut s = String::from("hello world");
+    //     let word = first_word(&s);
+    //     // s.clear();
+    
+    //     println!("{word}")
+    // }
+
+
+
+
+
+
+
+    // fn second_word(s: &str) -> &str {
+    //     let bytes = s.as_bytes();
+    
+    //     for (i, &item) in bytes.iter().enumerate() {
+    //         if item == b' ' {
+    //             return &s[0..i];
+    //         }
+    //     }
+    //     &s[..]
+    // }
+    
+    // fn main() {
+    //     let my_string = String::from("hello world");
+
+    //     let word = second_word(&my_string[0..6]);
+    //     let word = second_word(&my_string[..]);
+
+    //     let word = second_word(&my_string);
+
+    //     let my_string_literal = "hello world";
+
+    //     let word = second_word(&my_string_literal[0..6]);
+    //     let word = second_word(&my_string_literal[..]);
+        
+    //     let word = second_word(my_string_literal);
+    
+    //     println!("{word}")
+    // }
+
+
+
+
+
+    // struct User {
+    //     active: bool,
+    //     username: String,
+    //     email: String,
+    //     sign_in_count:u64,
+    // }
+    
+    // fn main() {
+    //     let user1 = User {
+    //         active: true,
+    //         username: String::from("username12"),
+    //         email:String::from("username@example.com"),
+    //         sign_in_count: 1,
+        
+      
+    //     };
+    
+    //     let s = user1.username;
+    //     println!("{s}");
+        
+    // }
