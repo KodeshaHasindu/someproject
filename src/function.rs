@@ -406,38 +406,4 @@ fn first_word(s: &String) -> &str {
 
 
 
-  //  Calculating the area of a rectangle
-    use std::io;
-
-fn main() {
- 
- println!("Please input width.");
- 
- let mut width = String::new();
-
- io::stdin()
-        .read_line(&mut width)
-        .expect("Failed to read line");
-
-        let width:u32  =  width.trim().parse().expect("msg");
-
- println!("Please input height.");
-
- let mut height = String::new();
-
- io::stdin()
-        .read_line(&mut height)
-        .expect("Failed to read line");
-
-        let height:u32  =  height.trim().parse().expect("msg");
-
-    println!(
-        "The area of the rectangle is {} square pixels",
-        area (width, height)
-    );
-
-
-fn area(width: u32, height: u32) -> u32 {
-    width * height
-}
-}
+  
